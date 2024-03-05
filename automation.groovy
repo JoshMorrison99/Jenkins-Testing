@@ -1,1 +1,1 @@
-echo currentBuild
+echo currentBuild.displayName
