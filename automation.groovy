@@ -1,0 +1,1 @@
+def website = params.JENKINS_WEBSITE
