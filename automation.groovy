@@ -1,6 +1,6 @@
 node {
   stage("Create File") {
-    echo currentBuild.displayName > my_file.txt
+    sh 'echo currentBuild.displayName > my_file.txt'
   }
 
   stage("Artifact File") {
